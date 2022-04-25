@@ -3,15 +3,9 @@ version: '3.8'
 services:
   app:
     build:
-      context: ./app
+      context: ./
       dockerfile: Dockerfile
     volumes:
       - ./app:/app
     ports:
       - "8000:8000"
-    networks:
-      - trivia_network
-
-networks:
-  trivia_network:
-    driver: bridge
