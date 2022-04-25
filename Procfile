@@ -1,1 +1,1 @@
-web: gunicorn app.trivia.wsgi:application --log-file - --log-level debug
+web: gunicorn app.trivia.wsgi:application
