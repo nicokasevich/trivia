@@ -1,1 +1,1 @@
-web: gunicorn trivia.wsgi:application
+web: gunicorn app.wsgi:application
