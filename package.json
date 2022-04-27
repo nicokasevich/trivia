@@ -1,0 +1,31 @@
+{
+  "name": "trivia-game",
+  "version": "1.0.0",
+  "description": "Its a trivia game",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack --mode development --config webpack.config.js",
+    "watch": "npx webpack --mode development --watch --config webpack.config.js",
+    "prod": "npx webpack --mode production --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicokasevich/trivia.git"
+  },
+  "author": "Nicolás Kasevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicokasevich/trivia/issues"
+  },
+  "homepage": "https://github.com/nicokasevich/trivia#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "node-sass": "^7.0.1"
+  }
+}

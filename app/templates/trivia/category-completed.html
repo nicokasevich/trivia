@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% block content %}
+<div
+  class="is-flex is-vh-80 is-justify-content-center is-align-items-center is-flex-direction-column"
+>
+  <h2 class="title">You completed the {{ category }} category! Congratz!</h2>
+  <a href="{% url 'trivia:category' %}" class="button is-primary mb-3"
+  >Change category</a
+  >
+  <a
+    href="{% url 'trivia:reset-questions' %}"
+    class="button is-light"
+    >Reset questions</a
+  >
+</div>
+{% endblock content %}
