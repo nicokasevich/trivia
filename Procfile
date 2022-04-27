@@ -1,4 +1,4 @@
 web: gunicorn app.wsgi:application
-python3 manage.py migrate
-python3 manage.py addquestions
-python3 manage.py createsuperuser
+release: python3 manage.py migrate
+release: python3 manage.py addquestions
+release: python3 manage.py createsuperuser
